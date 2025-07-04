@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kepler  Chatbot</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <nav>
+    <h1><img style="height: 4rem; border-radius: 10px;margin-right: 20px; width: 100px;" src="image/kepler logo.png" alt="">Kepler College</h1>
+    <ul>
+      <!-- <li><a href="#">Home</a></li> -->
+    </ul>
+  </nav>
+  
+
+  <main>
+  <section class="hero">
+    <div class="overlay">
+      <h2>Welcome to Kepler College Compus</h2>
+      <p>Explore academics and admissions with our assistant</p>
+    </div>
+  </section>
+</main>
+
+
+  <!-- Chatbot Button -->
+  <div class="chatbot-button" onclick="toggleChat()">
+    <img src="image/chat icon.png" alt="Chat Icon" />
+  </div>
+
+  <!-- Chat Window -->
+  <div class="chat-popup" id="chat-popup">
+    <div class="chat-header">
+      <h3>KeplerBot</h3>
+      <button onclick="toggleChat()">✕</button>
+    </div>
+    <div class="chat-body" id="chat-box">
+      <div class="message bot">Hi! I’m KeplerBot. Ask me anything about admissions or academics.</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your question..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  <div class="Myp">
+<nav>
+    <h2 class="p"><img style="height: 4rem; border-radius: 10px;margin-left: 20px; width: 100px;" src="image/PROFILE IMAGE.jpg" alt="">developer</h1>
+    <ul>
+      <!-- <li><a href="#">Home</a></li> -->
+    </ul>
+  </nav>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
